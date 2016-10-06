@@ -1,5 +1,25 @@
 # Sandbox Coding Challenge
 
+## Installation
+
+
+```
+npm install
+```
+
+Using postgres for testing.
+
+```
+createdb sandbox_test
+knex migrate:latest
+```
+
+To run tests.
+
+```
+npm test
+```
+
 ## Technologies Used
 
 * Node/Express
